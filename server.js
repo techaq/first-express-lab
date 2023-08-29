@@ -11,5 +11,5 @@ app.get("/greeting/:name", (request, response) => {
 });
 
 app.listen(3000, () => {
-  console.log("Greeting has been initialized");
+  console.log("Greeting initialized");
 });
